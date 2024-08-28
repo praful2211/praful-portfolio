@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: white;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color: black;
+}
+.main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    z-index: 10;
+}
+#hh{
+    margin-top:5px;
+}
+.divlist{
+    margin-right: 10px;
+    width: 500px;
+}
+.d01{
+    margin-left:10px;
+}
+.lii:hover{
+    background-color: rgb(95, 5, 5);
+}
+.ul1{
+    margin-top: 18px;
+    width: 500px;
+    display:flex;
+    justify-content: space-between;
+}
+#mypic{
+    margin-top: 50px;
+    height: 400px;
+    width: 300px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.ul1 li{
+    list-style: none;
+    display: inline;
+    color: white;
+}
+#a1{
+    font-size: xx-large;
+}
+.welcome{
+    background-image: url(background.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+    padding-top: 120px;
+}
+.about{
+    border: 2px solid red;
+    border-top: 4px solid red ;
+    background-color: black;
+    height: 450px;
+}
+.pro{
+    border: 2px solid red;
+    border-top: 3px solid red;
+    border-bottom: 0;
+    background-color: black;
+    height: 450px;
+}
+h1{
+    color: white;
+}
+h2{
+    color:white;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between icons */
+    padding: 20px;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #333; /* Default color */
+    font-size: 24px; /* Size of icons */
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #007bff; /* Color on hover */
+}
+
+/* Optional: Add specific colors for each social media icon */
+.social-icon.facebook {
+    color: #3b5998;
+}
+
+.social-icon.twitter {
+    color: #1da1f2;
+}
+
+.social-icon.instagram {
+    color: #c13584;
+}
+#head{
+    color: rgb(199, 44, 44);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#p1{
+    text-align: justify;
+    font-size: larger;
+    margin-top: 20px;;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+#ul2{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: larger;
+}
+#f{
+    text-align: center;
+    height: 50px;
+    border: 2px solid red;
+    border-top: 0;
+}
+#h03{
+    margin-right: 10px;
+    margin-left: 10px;
+}
